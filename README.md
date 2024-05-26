@@ -9,6 +9,13 @@
 
 
 ### 2. Terraform must prepare ansible inventory file automatically
+![alt text](<screenshots/2/Знімок екрана з 2024-05-27 02-29-10.png>)
+![alt text](<screenshots/2/Знімок екрана з 2024-05-27 02-29-22.png>)
+![alt text](<screenshots/2/Знімок екрана з 2024-05-27 02-29-37.png>)
+![alt text](<screenshots/2/Знімок екрана з 2024-05-27 02-30-49.png>)
+![alt text](<screenshots/2/Знімок екрана з 2024-05-27 02-31-08.png>)
+![alt text](<screenshots/2/Знімок екрана з 2024-05-27 02-34-52.png>)
+
 
 ### 3. Write ansible playbook which install docker, docker-compose, pull nginx image and run it with docker-compose
 

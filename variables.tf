@@ -1,3 +1,9 @@
+variable "instance_count" {
+  description = "Number of EC2 instances"
+  type        = number
+  default     = 2
+}
+
 variable "vpc_id" {
     description = "VPC ID"
     type = string

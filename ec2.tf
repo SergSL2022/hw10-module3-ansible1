@@ -19,7 +19,9 @@ data "aws_ami" "ubuntu_24_04_latest" {
 }
 
 
-resource "aws_instance" "nginx_web_server_1" {
+resource "aws_instance" "nginx_web_server" {
+    count = var.instance_count
+
   ami           = data.aws_ami.ubuntu_24_04_latest.id
   instance_type = "t3.micro"
   root_block_device {
@@ -29,22 +31,7 @@ resource "aws_instance" "nginx_web_server_1" {
   key_name = "slipchuk-aws-ec2"
 
   tags = {
-    Name  = "NGINX web server1"
-    Owner = "slipchuk"
-  }
-}
-
-resource "aws_instance" "nginx_web_server_2" {
-  ami           = data.aws_ami.ubuntu_24_04_latest.id
-  instance_type = "t3.micro"
-  root_block_device {
-    volume_size = 10
-  }
-  vpc_security_group_ids = [aws_security_group.slipchuk-sg.id]
-  key_name = "slipchuk-aws-ec2"
-
-  tags = {
-    Name  = "NGINX web server2"
+    Name  = "NGINX web server-${count.index + 1}"
     Owner = "slipchuk"
   }
 }
