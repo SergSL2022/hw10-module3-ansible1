@@ -24,3 +24,15 @@
 
 
 ### 4. Apply ansible playbook manually, it should deploy everything on both ec2 instances
+![alt text](<screenshots/4/Знімок екрана з 2024-05-27 14-41-46.png>)
+![alt text](<screenshots/4/Знімок екрана з 2024-05-27 14-42-28.png>)
+![alt text](<screenshots/4/Знімок екрана з 2024-05-27 15-09-38.png>)
+![alt text](<screenshots/4/Знімок екрана з 2024-05-27 15-09-57.png>)
+![alt text](<screenshots/4/Знімок екрана з 2024-05-27 15-12-45.png>)
+![alt text](<screenshots/4/Знімок екрана з 2024-05-27 15-12-59.png>)
+![alt text](<screenshots/4/Знімок екрана з 2024-05-27 15-13-38.png>)
+![alt text](<screenshots/4/Знімок екрана з 2024-05-27 15-14-09.png>)
+![alt text](<screenshots/4/Знімок екрана з 2024-05-27 15-14-44.png>)
+![alt text](<screenshots/4/Знімок екрана з 2024-05-27 15-15-30.png>)
+![alt text](<screenshots/4/Знімок екрана з 2024-05-27 15-19-40.png>)
+![alt text](<screenshots/4/Знімок екрана з 2024-05-27 15-20-30.png>)
