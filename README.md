@@ -18,8 +18,9 @@
 
 
 ### 3. Write ansible playbook which install docker, docker-compose, pull nginx image and run it with docker-compose
-![alt text](<screenshots/3/Знімок екрана з 2024-05-27 14-38-02.png>)
-![alt text](<screenshots/3/Знімок екрана з 2024-05-27 14-38-24.png>)
+![alt text](<screenshots/3/Знімок екрана з 2024-05-27 15-05-14.png>)
+![alt text](<screenshots/3/Знімок екрана з 2024-05-27 15-05-27.png>)
+![alt text](<screenshots/3/Знімок екрана з 2024-05-27 15-06-08.png>)
 
 
 ### 4. Apply ansible playbook manually, it should deploy everything on both ec2 instances
